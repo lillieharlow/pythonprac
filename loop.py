@@ -7,7 +7,7 @@
 
 while count < 5:
     print("I am inside a loop.")
-    print("Looping is interesting.")'''
+    print("Looping is interesting.")
     
 # Infitine loop!
 
@@ -51,13 +51,21 @@ while count >= 1:
     print(f"{number} x {count} = {answer}")
     count -= 1
 
+print("--------------------------------------------")
 # Breaks in loops
 
-
-
-'''while True:
-    number = float(input("Enter a number: "))
+while True:
+    number = int(input("Enter a number: "))
     if number < 0:
+        print(f"You entered {number}, that's a negative number. Good bye!")
         break
-    print ("You entered: ", number)'''
-    
+    print ("You entered: ", number)
+
+print("--------------------------------------------")'''
+
+languages = ["Python", "Java", "Swift", "C", "C++"]
+
+for language in languages:
+    if language == "Swift" or language == "C++":
+        continue
+    print(language)
