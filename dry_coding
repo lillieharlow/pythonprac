@@ -1,0 +1,50 @@
+# Without dry
+
+'''
+print('Jack')
+print('Janice')
+print('Sam')
+print('Matt')
+print('Jane')
+
+# When trying to print 100 students - above wouls take up 100 lines of code.
+# use 'def' - keyword short of define a function in python
+
+# with dry
+
+def welcome(name): # name is the argument, welcome is the name of the function
+    print(f'Good morning {name}')
+
+welcome('Jack')
+welcome('Janice')
+welcome('Sam')
+welcome('Matt')
+welcome('Jane')
+
+'''
+#Function is just for greeting the user
+
+def welcome():
+    print('Hello, welcome to my game!!')
+
+# This won't run becauase we havn't called the function welcome
+
+welcome()
+
+def welcome_with_name(name):
+    print(f'Hello {name}, welcome to my game!!')
+
+welcome_with_name('John') # John is an argument that I have passed to a function called welcome_with_name
+welcome_with_name('Amy')
+welcome_with_name('Mary-Kate')
+
+# Calculations & functions
+
+def add (num1, num2, num3):
+    sum = num1 + num2 + num3
+    print(f'The sum of {num1} + {num2} + {num3} = {sum}')
+
+add(5, 10, 78)
+add(8, 56, 909)
+add(154, 9, 321)
+add(6, 54, 78654)
