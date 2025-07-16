@@ -1,4 +1,8 @@
-''' # Functions
+'''
+# command and click on the function e.g. input() takes you to builtin functions.
+# - allows us to make our on function. print() i a function sum() is a function.
+
+# Functions
 # Group of related statements that preform a specific task
 # Divide into smaller chunkks, easier to program and change
 
@@ -84,7 +88,6 @@ print(f'Your mark average was {average_marks}')
 print(f'Your final grade is {final_grade}')
 
 print('--------------------------------')
-'''
 
 # Add and multiply two numbers by creating two functions add_numbers() and multiply_numbers()
 
@@ -106,3 +109,8 @@ multi = multiply_numbers(n1, n2)
 
 print(f'The sum of numbers is: {sum}')
 print(f'Your numbers multiplied is: {multi}')
+
+print('--------------------------------')
+'''
+
+#
