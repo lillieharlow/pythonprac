@@ -86,7 +86,54 @@ check_water_temp()
 
 print('---------------------------------------------------------)
 
+# Lambda - anonymous functions
+# one-liner function
+# used for short operations
+#syntax: lambda arguments: expression
+
+def square(z):
+    return z * z
+
+print(square(5))
+
+# Lambda version of above code
+
+square_my_number = lambda x: x * x
+print('Lambda version', square_my_number(5))
+
+print('---------------------------------------------------------)
+
+
+# Excersize - using lambda with sorted()
+
+list_of_students = [('Joe', 54), ('Jane', 85), ('Sally', 60)]
+
+sorted_num = sorted(list_of_students, key=lambda x: x[1])
+
+print(sorted_num)
+
+print('---------------------------------------------------------)
+
 '''
 
-# Lambda - advanced functions
+# recursive function
+# logic could be also related to while loop - boolean idea - True False
 
+def mycountdown(n):
+    if n == 0:
+        print('End!')
+    else:
+        print(n)
+        mycountdown(n-1) # recursive case
+        
+mycountdown(5)
+
+# in while loop
+
+n = 5
+
+while n > 0:
+    print(n)
+    n -= 1
+
+print("End! while loop")
