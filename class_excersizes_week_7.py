@@ -84,25 +84,3 @@ for name, score in student_marks.items():
     print(f"Student: {name} | Score: {score}")
 
 print
-
-
-'''Create your own simple text-based game that:
-
-Uses at least one function
-
-Includes a loop (for , while or both)
-
-Has conditional logic (if, else, elif)
-
-Use break and continue where suitable
-
-Uses user input and responds accordingly
-
-Shows some creative theme or twist (ideas...... fantasy, mystery, sci-fi, animals, trivia, survival, etc.)
-
-Note: You have the freedom to be creative
-
-Some Game Ideas
-Number Guessing Game
-Simple Quiz Game
-Treasure Hunt Game'''
