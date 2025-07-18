@@ -113,4 +113,7 @@ print(f'Your numbers multiplied is: {multi}')
 print('--------------------------------')
 '''
 
-#
+# Create a list using range function
+
+result = list(range(3, 31, 3))
+print(result)
